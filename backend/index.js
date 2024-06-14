@@ -17,7 +17,7 @@ app.use(
 );
 app.use(express.json()); // تحديد حد الحمولة لـ 10 ميجابايت
 app.use(cookieParser());
-app.use("api", router);
+app.use("/api", router);
 
 const PORT = 8080 || process.env.PORT;
 connectDB().then(() => {
