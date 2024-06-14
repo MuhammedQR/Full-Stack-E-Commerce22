@@ -51,8 +51,8 @@ const Header = () => {
       <div className="h-full container mx-auto flex items-center justify-between px-4 ">
         <div className="">
           <Link to={"/"}>
-            <h2 className="text-[rgb(197,145,99)] font-bold font-serif border-x-4 p-2 border-green-600 rounded-full">
-              Sama store
+            <h2 className="text-[rgb(197,145,99)] font-bold font-serif border-l-4 p-2 border-green-600">
+              Mo store
             </h2>
           </Link>
         </div>
