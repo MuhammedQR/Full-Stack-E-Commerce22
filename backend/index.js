@@ -15,7 +15,7 @@ app.use(
     allowedHeaders: "Content-Type,Authorization",
   })
 );
-app.use(express.json()); // تحديد حد الحمولة لـ 10 ميجابايت
+app.use(express.json({ limit: '10mb' })); // تحديد حد الحمولة لـ 10 ميجابايت
 app.use(cookieParser());
 app.use("/api", router);
 
